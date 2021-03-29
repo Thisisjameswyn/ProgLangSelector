@@ -7,7 +7,7 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
-  <script> src="js/scripts.js"</script>
+  <script src="js/scripts.js"></script>
   <title>Language selector!</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
     <div class="welcome">
       <h1>Language language, read all about it!</h1>
       <p>Are you like most other people?  I know I am.  I'd like to know what language I should learn by taking a quiz.  You must want this too</p>
-      <p>Let's start by answering some of life's greatest questions</p>
+
     </div>
 
     <div>
@@ -24,10 +24,15 @@
       <h2 id="answer3">Hmmmmm <span class="name"></span>, Python I guess</h2>
     </div>
 
+    <div class="magicWord">
+      <h1>Feed me your answers!</h1>
+      <img src="img/mWord.jpg" alt="You didn't say the magic word">
+    </div>
+
     <div class="questions">
       <form id="welcomeSelect">
         <div class="form-group">
-          <label for="name">Let's get started by entering your name and answering a few questions</label>
+          <label for="name">Let's start by answering some of life's greatest questions...What's your name?</label>
           <input id="name" class="form-control" type="text">
         </div>
         <div class="question">
@@ -116,7 +121,7 @@
         <button type="submit" class="btn">Reset</button>
       </div>
     </form>
-    
+
   </div>
 </body>
 </html>

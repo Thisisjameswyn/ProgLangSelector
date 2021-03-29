@@ -1,3 +1,66 @@
 .container {
   padding-top: 10%;
 }
+
+.welcome{
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.welcome h1{
+  text-decoration: underline;
+  padding-left: 5%;
+  float:left;
+  width: 80%;
+  height: 10%;
+  background-color: rgb(226, 145, 115);
+  margin: 10px;
+}
+
+.welcome p{
+  font-size: 20pt;
+  box-sizing: content-box;
+  padding: 20px;
+  width:70%;
+}
+
+.magicWord{
+  display:none;
+}
+
+#answer1, #answer2, #answer3{
+  display: none;
+  padding: 50px;
+}
+
+.btn-group{
+  columns: 12;
+  border: 1px solid rgb(226, 145, 115);
+  size: 100%;
+  float:left;
+  margin: 5px;
+  margin-bottom: 100px;
+}
+
+.question{
+  box-sizing:content-box;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  border: 1px solid grey;
+  width: 50%;
+}
+
+body{
+  background-color: rgb(255, 242, 225);
+}
+
+.form-group{
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.question h4{
+  padding-left: 4%;
+}
